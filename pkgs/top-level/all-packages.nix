@@ -31065,6 +31065,8 @@ with pkgs;
 
   redshift-plasma-applet = libsForQt5.callPackage ../applications/misc/redshift-plasma-applet { };
 
+  fokus-plasma-applet = libsForQt5.callPackage ../applications/misc/fokus-plasma-applet { };
+
   latte-dock = libsForQt5.callPackage ../applications/misc/latte-dock { };
 
   gnome-themes-extra = gnome.gnome-themes-extra;
